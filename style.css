@@ -1,0 +1,117 @@
+.allerta-stencil-regular {
+    font-family: "Allerta Stencil", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px lightslategrey;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul a:hover {
+    color: red;
+}
+
+.ul a {
+    color: black;
+    margin: 15px;
+}
+
+.logo-img {
+    width: 100px;
+
+}
+
+
+.background-img {
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+}
+
+.said {
+    text-align: center;
+    margin-top: 200px;
+    width: 650px;
+    margin-left: 150px;
+
+}
+
+.said ul {
+    display: flex;
+    margin-left: 55px;
+}
+
+.said li {
+    margin-left: 50px;
+}
+
+.section {
+
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+
+.img {
+    margin-top: 220px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+   
+ width: 33.3%;
+ font-size: 17px;
+
+}
+.img .front-end{
+    background: url('front.png') no-repeat center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+
+}
+.img .backend{
+  
+    border-radius: 10px;
+    background: url('back.jpg') no-repeat center;
+    background-size: cover;
+    height: 250px;
+}
+.front {
+    height: 250px;
+    border-radius: 9px;
+    width: 350px;
+
+}
+.img .dev{
+    height: 250px;
+    border-radius: 10px;
+    background: url('Development.png') no-repeat center;
+    background-size: cover;
+}
+.img .devops{
+    height: 250px;
+    border-radius: 10px;
+    background: url('DevOps.png') no-repeat center;
+    background-size: cover 
+}
