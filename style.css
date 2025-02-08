@@ -147,7 +147,7 @@ table {
 }
 
 #navbarsExample09 {
-    background-color: ##011627;
+   
 }
 
 .collapse {
@@ -163,9 +163,8 @@ table {
 
 
 }
-.search-h1{
-    background-color: #C0D6DF;
-}
+
+
 
 .header {
     position: relative;
@@ -248,7 +247,7 @@ table {
     background-size: cover
 }
 
-.collapse-01{
+.collapse-01 {
     background-color: #DBE9EE;
 }
 
