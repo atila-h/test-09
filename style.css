@@ -142,13 +142,6 @@ table {
 
 }
 
-.bodyy {
-    background-color: #C0D6DF;
-}
-
-#navbarsExample09 {
-   
-}
 
 .collapse {
     font-size: 20px;
@@ -159,37 +152,116 @@ table {
     background: url('photo_2025-01-05_05-58-23.jpg') no-repeat;
     background-size: cover;
     border-radius: 5px;
-    height: 100vh;
-
-
+    height: 900px;
+    width: 100%;
 }
 
 
 
-.header {
-    position: relative;
-    margin: 7px;
+.p-me-img {
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.p-text{
+    padding: 30px;
+   
+    font-size: 20px;
+    
+}
+.icon{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    height: 27vh;
+    border-radius: 20px;
+}
+.icon-text{
+    padding: 18px;
 }
 
-.overlay {
+.satarted{
+    background: url('/started.jpg')no-repeat;
+    background-size:cover ;
+    height: 80vh;
+    display: flex;
+    z-index: -1;
+    opacity: 0.8;
+}
+.satarted:hover{
+    opacity: 0.6;
+}
+.text-start{
+    width: 100vh;
+    justify-items: center;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
+    bottom: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: end;
+    margin: 45px;
+    font-size: 20px;
+    padding: 65px;
+    opacity: 0.8;
 
 }
 
-.overlay .said {
-    text-align: center;
-    background-color: #C2948A;
-    border: 1px solid white;
+.button-start{
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 20px;
-    padding: 10px;
+    align-self: center;
+    justify-items: center;
+    font-size: 23px;
+    margin: 25px;
+    border: 1px solid #c0b8b8;
+}
+
+.front{
+    background: url('/Carousel/front.png') no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 8px;
+    
+}
+.back-end{
+    background: url('/Carousel/back.jpg') no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 8px;
+}
+.Development{
+    background: url('/Carousel/Development.png') no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 8px;
+}
+.devops{
+    background: url('/Carousel/DevOps.png') no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 8px;
+}
+.col-imgs-01{
+    
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.img-col{
+    padding: 0;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    text-align: center;
+}
+
+.text-col{
+    padding: 30px;
+    height: 315px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .section {
@@ -198,54 +270,7 @@ table {
     width: 100%;
 }
 
-.img {
-    background-color: #7EA8BE;
-    margin-top: 220px;
-    border: 1px solid #D6C9C9;
-    border-radius: 10px;
-    text-align: center;
-    margin: 20px;
-    width: 33.3%;
-    font-size: 17px;
 
-}
-
-.img .front-end {
-    background: url('front.png') no-repeat center;
-    background-size: cover;
-    height: 250px;
-    border-radius: 10px;
-
-}
-
-.img .backend {
-
-    border-radius: 10px;
-    background: url('back.jpg') no-repeat center;
-    background-size: cover;
-    height: 250px;
-}
-
-.front {
-    height: 250px;
-    border-radius: 9px;
-    width: 350px;
-
-}
-
-.img .dev {
-    height: 250px;
-    border-radius: 10px;
-    background: url('Development.png') no-repeat center;
-    background-size: cover;
-}
-
-.img .devops {
-    height: 250px;
-    border-radius: 10px;
-    background: url('DevOps.png') no-repeat center;
-    background-size: cover
-}
 
 .collapse-01 {
     background-color: #DBE9EE;
@@ -261,7 +286,7 @@ table {
 
     margin-top: 50px;
     margin-bottom: 50px;
-    border-top: 1px solid #D6C9C9;
+
     display: flex;
     margin-bottom: 20px;
     justify-content: center;
@@ -319,10 +344,6 @@ table {
     border-radius: 4px;
 }
 
-.footer {
-    margin-top: 120px;
-}
-
 .copy {
     margin: 4px;
     float: right;
@@ -330,5 +351,7 @@ table {
 }
 
 .footer {
+    margin-top: 120px;
     background-color: #4A6FA5;
+    padding: 0;
 }
